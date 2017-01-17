@@ -217,7 +217,7 @@
 			<div id="auction_board"> AUCTION 
 				<div id="board_creator">B_C
 					<div id="text_line">
-						<textarea name="content" rows="5" cols="40">아무거나 적어보세요
+						<textarea name="content" rows="5" cols="40">아무거나 적어보세요.
 						</textarea>																						
 					</div>
 					<button id="photo_attach_button">사진첨부
