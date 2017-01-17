@@ -55,6 +55,28 @@
 			padding:10px
 		}
 		
+		#board_creator {
+			background-color:#BEBEBE;
+			height:120px;
+			width:360px;
+			float:left;
+			}
+		
+		#photo_attach_button {
+			background-color:#EEEEEE;
+			height:20px;
+			width:70px;
+			float:left;
+			margin:1px;
+		}
+		
+		#text_line {
+			background-color:#DCDCDC;
+			height:90px;
+			width:360px;
+			float:left;
+		}
+		
 		#right_side {
 			background-color:#FFD700;
 			height:550px;
@@ -192,7 +214,24 @@
 		<div id="center_view">
 			<b>Center_view</b>
 			<div id="normal_board"> NORMAL </div>
-			<div id="auction_board"> AUCTION </div>
+			<div id="auction_board"> AUCTION 
+				<div id="board_creator">B_C
+					<div id="text_line">
+						<textarea name="content" rows="5" cols="40">아무거나 적어보세요
+						</textarea>																						
+					</div>
+					<button id="photo_attach_button">사진첨부
+					</button>
+					<button id="photo_attach_button">해시태그
+					</button>
+					<button id="photo_attach_button">시작가
+					</button>
+					<button id="photo_attach_button">공개범위
+					</button>
+					<button id="photo_attach_button">게시
+					</button>
+				</div>
+			</div>
 		</div>
 		<div id="right_side">
 			<b>Right_side</b>
